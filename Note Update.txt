@@ -1,0 +1,74 @@
+Update: 10/20/2015
+Update config responsive in admin:
+File changed:
+app\code\local\Magiccart\Alothemes\etc\system.xml
+app\code\local\Magiccart\Alothemes\etc\config.xml
+
+app\design\frontend\alogg\default\template\magiccart\alothemes\newsletter\subscribe.phtml
+app\design\frontend\alogg\default\template\catalog\product\list.phtml
+
+js\magiccart\jquery.alothemes.js
+
+skin\frontend\alogg\default\css\styles.css
+skin\frontend\alogg\default\css\responsive.css
+
+skin\frontend\alogg\demo2\css\styles.css
+skin\frontend\alogg\demo2\css\responsive.css
+
+skin\frontend\alogg\demo3\css\styles.css
+skin\frontend\alogg\demo3\css\responsive.css
+
+
+Update: 10/31/2015
+
+Update quickstart to magento version 1.9.2.2
+
+fix bug theme in 1.9.2.2
+file changed:
+php file:
+app\code\local\Magiccart\Magicinstall\controllers\Adminhtml\InstallController.php
+
+Update: 11/26/2015
+File chanded:
+php file:
+app\code\local\Magiccart\Magicinstall
+app\code\local\Magiccart\Blog\controllers\Manage
+html file:
+app\design\frontend\alogg\default\template\catalog\product\view\type\default.phtml
+
+Update: 12/04/2015
+
+add featue auto close quickview after add to cart:
+file change: js\magiccart\ajaxcart.js
+
+Fix bug Search results:
+file change:
+xml file: 
+app\design\frontend\alogg\default\layout\catalogsearch.xml
+html file:
+app\design\frontend\alogg\default\template\catalog\layer\state.phtml
+
+Update: 12/28/2015
+change file in folder: update-12-28-2015
+
+Update: 02/15/2016
+change file: app\design\frontend\alogg\default\template\magiccart\magicslider\magicslider.phtml
+
+Update: 03/21/2016
+change file:
+app\design\frontend\alogg\default\layout\customer.xml
+app\design\frontend\alogg\default\layout\configurableswatches.xml
+
+Update: 06/03/2016
+change file:
+app\design\frontend\alogg\default\template\magiccart\blog\widget_slide.phtml
+
+02/06/2017: supee-8788
+update patch here: http://alothemes.com//themeforest/security/supee-8788/app.zip
+
+09/21/2017:
+	Files remove:
+	app\design\frontend\alogg\default\template\checkout\multishipping\shipping.phtml
+	app\design\frontend\alogg\default\template\checkout\onepage\payment.phtml
+	app\design\frontend\alogg\default\template\checkout\onepage\shipping.phtml
+	app\design\frontend\alogg\default\template\checkout\onepage\shipping_method.phtml

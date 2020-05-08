@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_block>
+      <title><![CDATA[Footer Links]]></title>
+      <identifier><![CDATA[footer_links]]></identifier>
+      <content><![CDATA[
+<ul>
+    <li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+    <li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Cookie restriction notice]]></title>
+      <identifier><![CDATA[cookie_restriction_notice_block]]></identifier>
+      <content><![CDATA[<p>This website requires cookies to provide all of its features. For more information on what data is contained in the cookies, please see our <a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy page</a>. To accept cookies from this site, please click the Allow button below.</p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[support-mobile]]></title>
+      <identifier><![CDATA[support-mobile]]></identifier>
+      <content><![CDATA[<div class="support-mobile">
+<div class="phone-top-left pull-left"><i class="fa fa-phone">&nbsp;</i></div>
+<div class="phone-top-right pull-left">
+<p class="phone">Call us +1 (868) 123 456 789</p>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Link social]]></title>
+      <identifier><![CDATA[link-social]]></identifier>
+      <content><![CDATA[<ul class="list-inline">
+<li><a class="social-link" href="#"><i class="fa fa-facebook"><span class="hidden">facebook</span></i></a></li>
+<li><a class="social-link" href="#"><i class="fa fa-twitter"><span class="hidden">twitter</span></i></a></li>
+<li><a class="social-link" href="#"><i class="fa fa-google-plus"><span class="hidden">google</span></i></a></li>
+<li><a class="social-link" href="#"><i class="fa fa-pinterest-p"><span class="hidden">pinterest</span></i></a></li>
+<li><a class="social-link" href="#"><i class="fa fa-instagram"><span class="hidden">instagram</span></i></a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Paypal]]></title>
+      <identifier><![CDATA[paypal]]></identifier>
+      <content><![CDATA[<div class="footer-bar-social">
+ <a class="social-first" href="#"><img class="img-responsive" alt="social" src="{{media url="wysiwyg/alothemes/static/social1.png"}}" /></a>
+ <a href="#"><img class="img-responsive" alt="social" src="{{media url="wysiwyg/alothemes/static/social2.png"}}" /></a>
+ <a href="#"><img class="img-responsive" alt="social" src="{{media url="wysiwyg/alothemes/static/social3.png"}}" /></a>
+ <a href="#"><img class="img-responsive" alt="social" src="{{media url="wysiwyg/alothemes/static/social4.png"}}" /></a>
+ <a class="social-last" href="#"><img class="img-responsive" alt="social" src="{{media url="wysiwyg/alothemes/static/social5.png"}}" /></a>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Image Category Bottom]]></title>
+      <identifier><![CDATA[image]]></identifier>
+      <content><![CDATA[<div class="category-banner"><img class="img-responsive" alt="" src="{{media url="wysiwyg/alothemes/static/banner-left_03.jpg"}}" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Sales product right column]]></title>
+      <identifier><![CDATA[sales_product]]></identifier>
+      <content><![CDATA[<div class="right-column-detail">{{widget type="magicproduct/widget_magicproduct" identifier="main_products_05" template="magiccart/magicproduct/magicproduct_custom.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block footer bottom home 2]]></title>
+      <identifier><![CDATA[block_footer_bottom_home2]]></identifier>
+      <content><![CDATA[<div class="row">
+<div class="col6 col-lg-3 col-md-3 col-sm-6 col-xs-6 col-mobile-12">
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">My account</h3>
+<div class="title-divider"><span>&nbsp;</span></div>
+<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+<div class="block-content block-content-statick toggle-content">
+<ul class="bullet">
+<li><a href="#">My order</a></li>
+<li><a href="#">My wishlist</a></li>
+<li><a href="#">My address</a></li>
+<li><a href="#">My vouchers</a></li>
+<li><a href="#">My credit slips</a></li>
+<li><a href="#">My cart</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col6 col-lg-3 col-md-3 col-sm-6 col-xs-6 col-mobile-12">
+<div class="collapsible mobile-collapsible">{{widget type="blog/slide" title="Blog" categories="1" blog_count="2" portrait="1" landscape="1" tablet="1" desktop="1" visibleItems="1" marginColumn="10" productDelay="500" widthImages="50" heightImages="50"}}</div>
+</div>
+<div class="col6 col-lg-3 col-md-3 col-sm-6 col-xs-6 col-mobile-12">{{block type="tag/popular" name="tags_popular" template="tag/popular.phtml"}}</div>
+<div class="col6 col-lg-3 col-md-3 col-sm-6 col-xs-6 col-mobile-12">
+<div class="collapsible mobile-collapsible">
+<h3 class="block-title heading">about us</h3>
+<div class="title-divider"><span>&nbsp;</span></div>
+<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+<div class="block-static block-content block-content-statick block1 toggle-content" >
+<p>Pellentesque porttitor mattis lacus, volutpati massa elementum non. Integer elementum nibh in saagittis nullam</p>
+<ul>
+<li class="feature-icon first"><span class="fa fa-map-marker icon"><span class="hidden">hidden</span></span>
+<p class="no-margin">No. 1422 Sounth Str, Los Angeles, USA</p>
+</li>
+<li class="feature-icon"><span class="fa fa-phone icon"><span class="hidden">hidden</span></span>
+<p>Tell: (01-1) 4567 911</p>
+</li>
+<li class="feature-icon"><span class="fa fa-envelope icon"><span class="hidden">hidden</span></span>
+<p>Email: Support@G&amp;Gshop.com</p>
+</li>
+<li class="feature-icon"><span class="fa fa-clock-o icon"><span class="hidden">hidden</span></span>
+<p>Open: 8h30 - 21h, Monday - Sunday</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Newsletter]]></title>
+      <identifier><![CDATA[newsletter]]></identifier>
+      <content><![CDATA[<div class="newsletter">{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Product Dropdown menu]]></title>
+      <identifier><![CDATA[sale-menu]]></identifier>
+      <content><![CDATA[<div>{{widget type="magicproduct/widget_magicproduct" identifier="main_products_01" template="magiccart/magicproduct/magicproduct.phtml"}}</div><div>{{widget type="magicproduct/widget_magicproduct" identifier="main_products_02" template="magiccart/magicproduct/magicproduct_custom.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+  </blocks>
+</root>

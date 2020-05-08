@@ -1,0 +1,131 @@
+.magicslider{padding:0px;margin:0;}
+.bx-wrapper .bx-caption { display:none;}
+.bx-wrapper .bx-caption.start, .bx-wrapper .bx-caption.play {display:block; position: absolute; top: 0; left: 0; text-align: center; width: 100%}
+@media(min-width:1920px){
+	.bx-wrapper .bx-caption.start, .bx-wrapper .bx-caption.play {left: 20%;}
+}
+.play h3{/*color: #020202;*/ margin: 0}
+.play .caption1 {margin: 0;text-transform: uppercase; opacity: 1; letter-spacing: 2px;}
+.play .caption1 span{color: #fee901; font-weight: 400; font-size: 36px;}
+.play .text-slide .caption2 {text-align: center; opacity: 1;}
+.play .text-slide .caption2:before,.play .text-slide .caption2:after{content: ""; height: 1px; background-color: #fff; text-align: center;width: 20%;display: inline-block; vertical-align: middle;}
+.play .text-slide .caption2:after{  content: ""; margin-left: 10px;}
+.play .text-slide .caption2:before{margin-right: 10px;}
+.play .text-slide1, .play .text-slide2{width: 56%; padding-top: 60px}
+.play .text-slide2{text-align: left; padding-left: 60px}
+.play .text-slide3{width: 55%; display: inline-block; padding-top: 95px}
+.play .text-slide1 .caption3, .play .text-slide2 .caption3 {font-size: 45px; line-height: 60px; font-weight: bold; text-transform: uppercase; padding-top: 10px; opacity: 1;}
+/*.play .caption4 {-moz-animation: fadeInLeft 1s ease-in 2s backwards; -webkit-animation: fadeInLeft 1s ease-in 2s backwards; animation: fadeInLeft 1s ease-in 2s backwards;opacity:1; margin-top: 30px}*/
+.play .caption4 {opacity:1; margin-top: 30px}
+.btn-shop:hover {color: #fff;background-color: #020202;}
+.play .text-slide2 .caption5{color: #020202; font-size: 32px; text-transform: uppercase; font-weight: bold; opacity:0.75;}
+.play .caption6{ display: none; position:absolute; top:72%; z-index:55; color: #242628; opacity:1;}
+.play .text-slide1 .caption2:before,.play .text-slide1 .caption2:after,.play .text-slide3 .caption2:before,.play .text-slide3 .caption2:after{margin: 0; max-width: 0px; display: none; opacity: 0; visibility: hidden;}
+.text-slide1 h3.caption1, .text-slide2 h3.caption1{font-size: 22px; font-weight: 300; position: relative; line-height: 50px}
+.text-slide1 h3.caption1:after{bottom: 0; left: 44%}
+.text-slide2 h3.caption1:after{bottom: 0; left: 0}
+.text-slide1 h3.caption1:after, .text-slide2 h3.caption1:after{content: ""; position: absolute; width: 69px; height: 2px; background-color: #000;}
+.text-slide.text-slide1 .caption2,.text-slide1 .caption2 strong{font-size: 34px; text-transform: uppercase; font-weight: normal; line-height: 54px}
+.text-slide1 .caption2 strong{padding-left: 10px}
+.play .text-slide .btn-shop.caption4{display: inline-block; font-size: 18px; font-weight: bold; color: #000; line-height: 46px; padding: 0 30px; border: 2px solid #000; text-transform: uppercase;}
+.play .text-slide .btn-shop.caption4:hover{background-color: #000; color: #fff}
+.text-slide3 h3.caption1{font-size: 45px; line-height: 85px; font-weight: bold;position: relative; z-index: 2; background-color: transparent;}
+.text-slide3 h3.caption1:before{content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; background-color: #fff;  border: 6px solid #737373; z-index: -1; opacity: 0.5}
+.play .text-slide3 .caption2, .play .text-slide3 .caption2 strong{font-size: 40px; line-height: 70px; font-weight: bold; text-transform: uppercase;}
+.play .text-slide3 .caption2 strong{padding: 0 5px}
+.play .text-slide3 .caption3{font-size: 18px; color: #fff; top: 55%; word-spacing: 5px; font-weight: 400; letter-spacing: 16px; padding: 0 5px; line-height: 25px;}
+.play .caption1{-moz-animation: all 0.5s ease-in 1.3s backwards; -webkit-animation: all 0.8s ease-in 1.3s backwards; animation: all 0.8s ease-in 1.3s backwards;}
+.play .caption2{ -moz-animation: all 0.5s ease-in 1.5s backwards; -webkit-animation: all 0.8s ease-in 1.5s backwards; animation: all 0.8s ease-in 1.5s backwards;}
+.play .caption3{  -moz-animation: all 0.5s ease-in 1.7s backwards; -webkit-animation: all 0.8s ease-in 1.7s backwards; animation: all 0.8s ease-in 1.7s backwards;}
+.play .caption4{-moz-animation: all 0.8s ease-in 2.1s backwards; -webkit-animation: all 1s ease-in 2.1s backwards; animation: all 1s ease-in 2.1s backwards;}
+.play .caption5{ -moz-animation: all 0.5s ease-in 1.9s backwards; -webkit-animation: all 0.8s ease-in 1.9s backwards; animation: all 0.8s ease-in 1.9s backwards;}
+.play .caption6{ -moz-animation: all 0.5s ease-in 2.0s backwards;  -webkit-animation: all 0.8s ease-in 2.0s backwards; animation: all 0.8s ease-in 2.0s backwards;}
+.play .text-slide3 .caption1, .play .text-slide3 .caption2, .play .text-slide3 .caption3, .play .text-slide3 .btn-shop.caption4{-webkit-animation-name: zoomIn; animation-name: zoomIn;}
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.play .text-slide2 .caption1, .play .text-slide2 .caption2, .play .text-slide2 .caption3, .play .text-slide2 .caption5, .play .text-slide2 .btn-shop.caption4{-webkit-animation-name: bounceInRight; animation-name: bounceInRight;}
+@keyframes bounceInRight {
+  from, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+.play .text-slide1 .caption1, .play .text-slide1 .caption2, .play .text-slide1 .caption3, .play .text-slide1 .caption5, .play .text-slide1 .btn-shop.caption4{-webkit-animation-name: rollIn; animation-name: rollIn;}
+@-webkit-keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
